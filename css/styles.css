@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:  hsl(216, 12%, 8%);
+    font-family: 'Overpass', sans-serif;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+}
+
+
+.rating-page, .thank-you-page{
+    background-color:  hsl(213, 19%, 18%);
+    width: 80vw;
+    max-width: 350px;
+    padding: 40px;
+    border-radius: 30px;
+}
+
+.star{
+    color:  hsl(25, 97%, 53%);
+    background-color:  hsla(217, 12%, 63%, 0.1);
+    padding: 15px;
+    border-radius: 50%;
+    margin-bottom: 40px;
+}
+
+.question{
+    color: #fff;
+    font-weight: 700;
+}
+
+.rating-page p{
+    margin: 20px 0;
+    color:  hsl(217, 12%, 63%);
+    line-height: 23px;
+    font-size: 15px;
+}
+
+.ratings{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.rating{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border: 0;
+    outline: 0;
+    color: hsl(217, 12%, 63%);
+    background-color:  hsla(217, 12%, 63%, 0.1);
+}
+
+.rating:hover{
+    color: #fff;
+    background-color: hsl(25, 97%, 53%);
+    transition: 0.5s;
+}
+
+
+.activebtn{
+    font-weight: 700;
+    color: #fff;
+    background-color: hsl(216, 12%, 54%);
+}
+
+
+.submit-btn{
+    width: 100%;
+    height: 50px;
+    border-radius: 50px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #fff;
+    background-color: hsl(25, 97%, 53%);
+    border: 0;
+    outline: none;
+}
+
+.submit-btn:hover{
+    color: hsl(25, 97%, 53%);
+    background-color: #fff;
+    transition: 0.5s;
+}
+
+.thank-you-page{
+    display: none;
+    width: 350px;
+    height: 375px;
+    align-content: center;
+    text-align: center;
+}
+
+.thank-you-image{
+    margin-top: 20px;
+}
+
+.your-rating{
+    margin: 30px auto;
+    text-align: center;
+    width: 55%;
+    padding: 5px;
+    color: hs;
+    background-color: hsla(217, 12%, 63%, 0.1);
+    border-radius: 15px;
+    color: hsl(25, 97%, 53%) !important;
+}
+
+.thank-you-page h2{
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.thank-you-page p{
+    color: hsl(217, 12%, 63%);
+    font-size: 16px;
+}
+
+/* @media (max-width: 445px) {
+    .rating-page, .thank-you-page{
+        width: 80vw;
+    }
+} */
